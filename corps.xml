@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mainContent SYSTEM "dtdCorps.dtd">
+<mainContent>
+	<partie>
+		<menu>
+			<item lien="home.html">Accueil</item>
+			<item lien="corps.html">Corps professoral</item>
+			<item lien="espace.html">Espace etudiant</item>
+			<item lien="about.html">A propos de</item>
+		</menu>
+	</partie>
+	<partie>
+          <professeur>
+            
+              <nom>SANOU</nom>
+              <prenom>Abou Dramane</prenom>
+            <poste>Directeur</poste>
+            <titre>Professeur agrégé</titre>
+            <domaineP>Algorithmique et heuresutiques</domaineP>
+            <domaineS>Système Multi-agent</domaineS>
+            <domaineS>Système temps-réel</domaineS>
+            <icon>researchgate</icon>
+          </professeur>
+          <professeur>
+            
+              <nom>Coulibaly</nom>
+              <prenom>Cheick Yacouba Rachid</prenom>
+            
+            <poste>Directeur Adjoint</poste>
+            <titre>Docteur</titre>
+            <domaineP>Interface Homme-Machine</domaineP>
+            <domaineS>Autonomie d'un Système</domaineS>
+            <icon>researchgate</icon>
+          </professeur>
+          <professeur>
+              <nom>Sakandé</nom>
+              <prenom>Christian</prenom>
+            <poste>Responsable des stages</poste>
+            <titre>Docteur</titre>
+            <domaineP>Data analyst</domaineP>
+            <domaineS>Egonometrie</domaineS>
+            <icon>researchgate</icon>
+          </professeur>
+          <professeur>
+              <nom>SANOU</nom>
+              <prenom>Idrissa</prenom>
+            <poste>Enseignant-Chercheur</poste>
+            <titre>Docteur</titre>
+            <domaineP>Algorithmique</domaineP>
+            <domaineS>Math appliqué</domaineS>
+            <icon>researchgate</icon>
+          </professeur>
+          <professeur>
+				<nom>KANE</nom>
+				<prenom>Mah</prenom>
+			<poste>Enseignante-chercheur</poste>
+			<titre>Professeur agrégé</titre>
+			<domaineP>Intelligence artificielle</domaineP>
+			<domaineS>Data scientis</domaineS>
+			<icon>researchgate</icon>
+		</professeur>
+	</partie>
+	<footer>
+		<text>Le copyright</text>
+		<icon>facebook</icon>
+		<icon>twiter</icon>
+		<icon>instagram</icon>
+	</footer>
+</mainContent>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mainContent ( partie*, footer)>
+<!ELEMENT partie (menu | defile | image |text )*>
+<!ELEMENT footer ( icon | text)* >
+<!ELEMENT menu ( item+ ) >
+<!ELEMENT defile ( image+ ) >
+<!ELEMENT text ( #PCDATA ) >
+<!ATTLIST image path NMTOKEN #REQUIRED>
+<!ATTLIST defile type NMTOKEN #IMPLIED>
+<!ELEMENT item ( #PCDATA ) >
+<!ATTLIST item lien NMTOKEN #IMPLIED>
+<!ELEMENT image ( #PCDATA )>
+<!ELEMENT icon ( #PCDATA )>
+<!ATTLIST icon lien NMTOKEN #IMPLIED>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mainContent SYSTEM "C:\Users\Aboudra\Documents\Altova\Site\dtdCorps.dtd">
+<mainContent>
+	<partie>
+		<menu>
+			<item lien="home.html">Accueil</item>
+			<item lien="corps.html">Corps professoral</item>
+			<item lien="espace.html">Espace etudiant</item>
+			<item lien="about.html">A propos de</item>
+		</menu>
+	</partie>
+	<partie>
+		<defile type="rafale">
+			<image path="img1.jpg"/>
+			<image path="img2.jpg"/>
+			<image path="img3.jpg"/>
+		</defile>
+	</partie>
+	<partie>
+	</partie>
+	<partie>
+	</partie>
+	<footer>
+		<text>Le copyright</text>
+		<icon>facebook</icon>
+		<icon>twiter</icon>
+		<icon>instagram</icon>
+	</footer>
+</mainContent>

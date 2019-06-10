@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT mainContent ( entete? , partie* , footer? )>
+
+<!ELEMENT entete ( titre, style*) >
+<!ELEMENT partie (menu | defile | image | text |professeur | personne | partie)*>
+<!ELEMENT footer ( icon | text )* >
+
+<!ELEMENT menu ( item+ ) >
+<!ELEMENT defile ( image+ ) >
+<!ELEMENT professeur ( nom , prenom , dateNaiss?, poste? , titre? ,domaineP? , domaineS*, icon?) >
+
+
+<!ELEMENT titre ( #PCDATA) >
+<!ELEMENT style ( #PCDATA) >
+<!ELEMENT image ( #PCDATA )>
+<!ELEMENT nom ( #PCDATA) >
+<!ELEMENT prenom ( #PCDATA) >
+<!ELEMENT poste ( #PCDATA) >
+<!ELEMENT domaineP ( #PCDATA) >
+<!ELEMENT domaineS ( #PCDATA) >
+<!ELEMENT item ( #PCDATA ) >
+<!ELEMENT text ( #PCDATA ) >
+<!ELEMENT icon ( #PCDATA )>
+
+<!ATTLIST image path NMTOKEN #REQUIRED>
+<!ATTLIST defile type NMTOKEN #IMPLIED>
+<!ATTLIST item lien NMTOKEN #IMPLIED>
+<!ATTLIST icon lien NMTOKEN #IMPLIED>
